@@ -1,0 +1,12 @@
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media screen and(max-width: 1700px) {
+  .contact-nav-link {
+    font-style: 1000px;
+  }
+  body {
+    width: 100%;
+  }
+}
