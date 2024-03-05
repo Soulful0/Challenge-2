@@ -63,8 +63,8 @@ body {
 /* SECTION 1 */
 
 .hero-background {
-  background-image: url(/img/Field.jpg);
-  background-repeat: none;
+  background-image: url(../img/Field.jpg);
+
   background-position: center;
   background-size: cover;
   width: 100%;
@@ -103,8 +103,8 @@ body {
 
 .hero-background-alt {
   position: relative;
-  height: 40rem;
-  width: auto;
+  height: 15rem;
+  /* width: auto; */
 }
 
 .overlay {
@@ -122,6 +122,17 @@ body {
   word-spacing: 2px;
 
   box-shadow: 0 0 20px 0 rgba(11, 11, 11, 0.2);
+}
+
+.headshot {
+  margin: 3.2rem;
+}
+
+.headshot img {
+  width: 20vw;
+  border: 3px solid #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(91, 88, 88, 0.6);
 }
 
 /* SECTION 1 */
