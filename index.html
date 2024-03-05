@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     <link rel="stylesheet" type="text/css" href="./assets/general.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     <link rel="stylesheet" type="text/css" href="./assets/queries.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,175 +14,188 @@
       rel="stylesheet"
     />
 
-    <title>Joshua Gingold</title>
+    <title>Challenge-2</title>
   </head>
+
   <body>
     <div class="hero-background">
-      <header>
-        <h1>Joshua Gingold</h1>
+      <header class="hero-spacing">
+        <h1 class="hero-title">Josh Gingold</h1>
         <nav>
-          <ul class="main-nav-list">
+          <ul class="nav-all">
             <li>
-              <a class="main-nav-link" href="#About">About Me</a>
+              <a class="nav" href="#About">About</a>
             </li>
             <li>
-              <a class="main-nav-link" href="#Work">Work</a>
+              <a class="nav" href="#Work">Work</a>
             </li>
             <li>
-              <a class="main-nav-link" href="#Contact">Contact Me</a>
+              <a class="nav" href="#Contact">Contact Me</a>
             </li>
             <li>
-              <a class="main-nav-link" href="#Resume">Resume</a>
+              <a class="nav" href="#Resume">Resume</a>
             </li>
           </ul>
         </nav>
       </header>
-      <div class="overlay-adjustment">
-        <p class="overlay">Beautiful Landscapes, Better Production</p>
+      <div class="hero-background-alt">
+        <p class="overlay">Welcome to my website!</p>
       </div>
     </div>
     <main>
-      <section class="aside-info" id="About">
-        <aside class="aside-text">
-          <h2>About Me</h2>
-        </aside>
-        <div class="text-adjustment">
-          <p class="about-us">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
-            repellendus eveniet rem soluta cum rerum labore adipisci minima qui
-            ullam? Vitae harum ex corrupti nam impedit dicta sint nemo nisi
-            commodi! Laborum, voluptatum necessitatibus fugit, tempore iure,
-            iusto quibusdam in eius est laboriosam quis dolorem eos officia
-            facilis qui consequuntur. Lorem ipsum dolor, sit amet consectetur
-            adipisicing elit. Dolores alias, distinctio similique iusto a
-            provident corporis? Ipsam dignissimos facilis quaerat! Voluptates
-            totam asperiores magnam soluta tempore illum esse. Minima, odio!
-          </p>
-          <p class="about-us">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
-            itaque animi consequuntur eos doloremque sequi eum, deserunt a et
-            laborum eligendi debitis velit exercitationem possimus reiciendis
-            dicta hic unde rem.
-          </p>
+      <section class="about-section" id="About">
+        <div class="section-list">
+          <aside>
+            <h2 class="aside-text">About Me</h2>
+          </aside>
+          <!-- <div class="grid grid-container"> -->
+            <div class="about-wrap">
+              <p class="about-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet
+                repellendus eveniet rem soluta cum rerum labore adipisci minima
+                qui ullam? Vitae harum ex corrupti nam impedit dicta sint nemo
+                nisi commodi! Laborum, voluptatum necessitatibus fugit, tempore
+                iure, iusto quibusdam in eius est!
+              </p>
+              <p class="about-text about-text-2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                itaque animi consequuntur eos doloremque sequi eum, deserunt a
+                et.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="aside-info" id="Work">
-        <aside class="work-h2">
-          <h2>Work</h2>
+      <section class="work-section" id="Work">
+        <div class="section-list">
+        <aside>
+          <h2 class="aside-text work-aside">Work<h2>
         </aside>
 
-        <!-- ADD LABELS -->
-
-        <div class="img-wrapper">
-          <div class="top-img-wrapper">
+        <div class="section-2-grid-top">
+          <div class="section-border">
+          <div class="top-wrapper">
             <div class="label-prep">
               <figure class="img-art">
                 <img
-                  class="top-img"
-                  src="./img/tractor.jpg"
-                  alt="Image of a tractor mowing a wheat field"
+                class="top-img"
+                src="./img/tractor.jpg"
+                alt="Image of a tractor mowing a wheat field"
                 />
               </figure>
-
-              <p class="img-label-top">
+              
+              <p class="img-label top-label">
                 <span class="label-title-top">Surf Report</span>
                 MERN Stack
               </p>
             </div>
+            
+            <div class="section-2-grid">
+              
+              <div class="label-prep">
+                <img
+                class="all-img"
+                src="./img/gardening.jpg"
+                alt="Image of a woman planting plants in her garden"
+                />
+                <p class="img-label">
+                  <span class="label-title">LED Wall</span>
+                  Node/IoT
+                </p>
+              </div>
+              
+              <div class="label-prep">
+                <img
+                class="all-img"
+                src="./img/beautiful-farm.jpg"
+                alt="Image of a man standing in a wheat field with a beautiful sunset in the background"
+                />
+                <p class="img-label">
+                  <span class="label-title">Calculator</span>
+                  React/JavaScript/CSS
+                </p>
+              </div>
+              
+              <div class="label-prep">
+                <img
+                class="all-img"
+                src="./img/Man-Farming.jpg"
+                alt="Image of a man farming, looking at two Bell Peppers"
+                />
+                <p class="img-label">
+                  <span class="label-title">Pastel Puzzles</span>
+                  MERN Stack
+                </p>
+              </div>
+              
+              <div class="label-prep">
+                <img
+                class="all-img"
+                src="./img/two-tractors.jpg"
+                alt="Image of two tractors mowing a wheat field"
+                />
+                <p class="img-label">
+                  <span class="label-title">Run Buddy</span>
+                  HTML/CSS
+                </p>
+              </div>
+            </div>
           </div>
-
-          <div class="label-prep">
-            <img
-              class="work-img"
-              src="./img/gardening.jpg"
-              alt="Image of a woman planting plants in her garden"
-            />
-            <p class="img-label">
-              <span class="label-title">LED Wall</span>
-              Node/IoT
-            </p>
-          </div>
-
-          <div class="label-prep">
-            <img
-              class="work-img"
-              src="./img/beautiful-farm.jpg"
-              alt="Image of a man standing in a wheat field with a beautiful sunset in the background"
-            />
-            <p class="img-label">
-              <span class="label-title">Calculator</span>
-              React/JavaScript/CSS
-            </p>
-          </div>
-
-          <div class="label-prep">
-            <img
-              class="work-img"
-              src="./img/Man-Farming.jpg"
-              alt="Image of a man farming, looking at two Bell Peppers"
-            />
-            <p class="img-label">
-              <span class="label-title">Pastel Puzzles</span>
-              MERN Stack
-            </p>
-          </div>
-
-          <div class="label-prep">
-            <img
-              class="work-img"
-              src="./img/two-tractors.jpg"
-              alt="Image of two tractors mowing a wheat field"
-            />
-            <p class="img-label">
-              <span class="label-title">Run Buddy</span>
-              HTML/CSS
-            </p>
           </div>
         </div>
-      </section>
-
-      <section class="aside-info" id="Contact">
-        <aside class="contact-h2">
-          <h2>Contact</h2>
-          <h2>Me</h2>
-        </aside>
-        <ul class="contact-nav">
-          <li>
-            <a class="contact-nav-link" href="tel:+12145439171"
-              >(214) 543-9171</a
-            >
-          </li>
-          <li>
-            <a class="contact-nav-link" href="mailto:joshgingold336@gmail.com"
-              >joshgingold336@gmail.com</a
-            >
-          </li>
-          <li>
-            <a
-              class="contact-nav-link"
-              href="https://github.com/Soulful0"
-              target="_blank"
-              rel="noopener"
-              >GitHub</a
-            >
-          </li>
-          <li>
-            <a
-              class="contact-nav-link"
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a class="contact-nav-link" href="https://www.instagram.com"
-              >Instagram</a
-            >
-          </li>
-        </ul>
-      </section>
+      </div>
+        </section>
+        
+        <section class="contact-section" id="Contact">
+          <div class="contact-spacing">
+            <aside>
+              <h2 class="contact-aside">Contact</h2>
+              <h2 class="contact-aside">Me</h2>
+            </aside>
+            <nav class="contact-nav">
+              
+          <ul class="contact-list">
+            <li>
+              <a class="contact-nav-link" href="tel:+12145439171"
+                >(214) 543-9171</a
+              >
+            </li>
+            <li>
+              <a class="contact-nav-link" href="mailto:joshgingold336@gmail.com"
+                >joshgingold336@gmail.com</a
+              >
+            </li>
+          
+            <li>
+              <a
+                class="contact-nav-link"
+                href="https://github.com/Soulful0"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                class="contact-nav-link"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener"
+                >Twitter</a
+              >
+            </li>
+            <li>
+              <a class="contact-nav-link" href="https://www.instagram.com"
+                >Instagram</a
+              >
+            </li>
+         
+          </ul>
+      
+        </nav>
+      </div>
+        </section>
     </main>
   </body>
 </html>

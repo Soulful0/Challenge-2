@@ -39,36 +39,11 @@ margin-left: 25rem;
   /* width: 100%; */
 }
 
-/* html {
+html {
   scroll-behavior: smooth;
   font-size: 10px;
-} */
+}
 
 body {
   font-family: "Roboto", sans-serif;
-  width: 100%;
-}
-
-h1 {
-  font-size: 5.2rem;
-
-  font-weight: 500;
-  letter-spacing: 1px;
-  color: #31231e;
-  background-color: #e3d888;
-  align-self: center;
-  padding: 1.2rem 1.2rem 1.2rem 9.6rem;
-}
-
-h2 {
-  margin-left: 2rem;
-  font-size: 4rem;
-}
-
-header {
-  height: 12rem;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  /* background-color: #7e7e7e; */
 }

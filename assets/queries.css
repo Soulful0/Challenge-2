@@ -1,12 +1,217 @@
-/**************************/
-/* BELOW 1344px (Smaller desktops) */
-/**************************/
-
-@media screen and(max-width: 1700px) {
-  .contact-nav-link {
-    font-style: 1000px;
+@media (max-width: 100em) {
+  .contact-aside {
+    font-size: 4.2rem;
   }
-  body {
-    width: 100%;
+
+  .aside-text {
+    font-size: 4.2rem;
+    margin-left: 3.5rem;
+  }
+
+  .about-text {
+    font-size: 2.2rem;
+  }
+
+  .contact-nav-link {
+    font-size: 2.8rem;
   }
 }
+
+@media (max-width: 87em) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .nav-all {
+    display: flex;
+    list-style: none;
+    padding: 0.8rem;
+  }
+
+  .nav {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2.4rem;
+    padding: 0.8rem;
+  }
+
+  .overlay {
+    font-size: 3rem;
+  }
+
+  .about-text {
+    font-size: 1.8rem;
+  }
+
+  .contact-nav-link {
+    font-size: 2.4rem;
+  }
+}
+
+@media (max-width: 85em) {
+  .top-img {
+    width: 62vw;
+  }
+
+  .all-img {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 60em) {
+  .contact-aside {
+    font-size: 3.8rem;
+    padding: 0rem 2.4rem 0rem 2.3rem;
+  }
+
+  .aside-text {
+    font-size: 3.8rem;
+    padding: 0.8rem 2.4rem 0.8rem 1.2rem;
+  }
+
+  .contact-nav-link {
+    font-size: 2rem;
+  }
+
+  .top-img {
+    width: 61vw;
+  }
+
+  .all-img {
+    width: 29.5vw;
+  }
+}
+
+@media (max-width: 50em) {
+  .contact-aside {
+    font-size: 3.4rem;
+  }
+
+  .aside-text {
+    font-size: 3.4rem;
+    margin-left: 3rem;
+  }
+
+  .contact-list {
+    gap: 3rem;
+  }
+
+  .img-label {
+    padding: 0.8rem;
+
+    font-size: 0.8rem;
+
+    /* LABEL ADJUSTMENT LOCATION */
+    top: 50px;
+  }
+
+  .label-title, .label-title-top {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 46em) {
+  .hero-title {
+    font-size: 2.4rem;
+    padding: 1.2rem 1.2rem 1.2rem 3.2rem;
+  }
+
+  .nav-all {
+    display: flex;
+    list-style: none;
+    padding: 0.6rem;
+  }
+
+  .nav {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+    padding: 0.6rem;
+  }
+
+  .overlay {
+    font-size: 2.4rem;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .contact-nav-link {
+    font-size: 1.6rem;
+  }
+
+  .section-list {
+    flex-wrap: wrap;
+  }
+
+  .contact-aside {
+    flex-wrap: wrap;
+  }
+
+  .contact-spacing {
+    flex-wrap: wrap;
+  }
+  .contact-nav {
+    border-left: hidden;
+  }
+
+  .section-border {
+    border-left: hidden;
+  }
+
+  .about-text {
+    border-left: hidden;
+  }
+
+  .aside-text {
+    border-bottom: 5px solid #e3d888;
+  }
+
+  .contact-aside-bottom {
+    border-bottom: 5px solid #e3d888;
+  }
+}
+@media (max-width: 34em) {
+  .hero-title {
+    padding: 1.2rem 1.2rem 1.2rem 2.4rem;
+  }
+
+  .nav-all {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding-right: 2.4rem;
+  }
+}
+
+/* Going to need adjusting */
+
+/* .work-section {
+  margin: 4.8rem;
+}
+
+.work-aside {
+  margin-right: 1.4rem;
+} 
+
+.work-img {
+  height: 50vh;
+  width: 40vw;
+}
+
+.bottom-img {
+  border: 5px solid #e3d888;
+  margin: 0.8rem;
+  grid-column: 1 / 2;
+  height: 50vh;
+  width: 35vw;
+}
+
+.top-img {
+  border: 5px solid #e3d888;
+  margin: 0.8rem;
+  margin-left: 3.9rem;
+
+  height: 40vh;
+  width: 71vw;
+}
+
+*/
